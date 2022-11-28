@@ -1,9 +1,23 @@
 package com.learning.spring;
 
+/* 
+ * Dependency Injection: 
+ */
 public class DependencyInjection {
 	
-	DependencyInjection(String str) {
-		System.out.println(str);
+	String str;
+	
+	DependencyInjection() {
 	}
+
+	public String getStr() {
+		return str;
+	}
+
+	public void setStr(String str) {
+		this.str = str;
+	}
+	
+	
 
 }

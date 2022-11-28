@@ -9,8 +9,7 @@
     
     <context:property-placeholder location="classpath:prop.properties" />
 
-	<bean id="dependencyInjection"
-		class="com.learning.spring.DependencyInjection">
+	<bean id="dependencyInjection" class="com.learning.spring.DependencyInjection">
 		
 		<property name="str" value="${foo.str}" /> 
 		
